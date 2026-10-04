@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>FL</title>
+    <style type="text/css">
+        .active { background-color: #e4d5c0; padding: 3px 2px; font-style: italic}
+        body {
+            background-color: #f5efe6;
+            margin: 20px;
+            font-size: 18px;
+        }
+        .zagolow {
+            text-align: center;
+        }
+        td {
+        border: 2px solid #452c08;
+        }
+    </style>
+</head>
+<body>
+<h1 id="nachalo" align="center">FLovers</h1>
+<div class="zagolow">
+        <a href="index.html">Главная</a>
+        <a href="gallery.html" class="active">Галерея</a>
+        <a href="forms.html">Форма</a>
+        <a href="dom.html">DOM</a>
+        <a href="pasport.html">Паспорт</a>
+        <a href="algorithm.html">Алгоритм</a>
+</div>
+<h2 align="center">Галерея цветов</h2>
+<div class="zagolow">
+    <p>На этой странице Вы найдёте:</p>
+    <p>
+        <a href="#table">Таблица</a>
+        <a href="#big">Большая картинка</a>
+    </p>
+</div>
+<br>
+<p>На этой странице Вы найдёте:</p>
+
+<ul type="square">
+    <li>сравнение популярных цветов</li>
+    <li>краткую информацию об их особенностях</li>
+    <li>большую фотографию цветка.
+        <ul type="circle">
+            <li>
+                <a href="img/flowers-link.jpg" target="_blank">
+                <img src="img/flowers-link.jpg" width="90px" alt="Большая фотография розы">
+                </a>
+            </li>
+        </ul>
+    </li>
+</ul>
+<p align="center">
+    Ниже можно сравнить несколько популярных цветов и узнать
+    об их особенностях
+</p>
+<h2 id="table" align="center">Таблица цветов</h2>
+<table align="center" border="1" cellspacing="0" cellpadding="10" width="700" background="img/cherry.jpg">
+    <tr>
+        <td colspan="3" align="center">
+            <b>Популярные цветы</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <img src="img/tulip.jpg" width="180px">
+        </td>
+
+        <td>
+            <img src="img/peony.jpg" width="180px">
+        </td>
+        <td>
+            <a href="https://ru.wikipedia.org/wiki/Орхидея" target="_blank">
+                <img src="img/orсhid.jpg" width="180px">
+            </a>
+            <p>*Подробнее*</p>
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><b>Тюльпан</b><br>
+        Популярность: высокая<br>
+        Часто дарят весной</td>
+        <td align="center"><b>Пион</b><br>
+        Популярность: высокая<br>
+        Часто дарят летом</td>
+        <td align="center"><b>Орхидея</b><br>
+        Популярность: высокая<br>
+        Часто выбирают в подарок</td>
+    </tr>
+</table>
+<br>
+<br>
+<p id="big" align="center">
+    <img src="img/flowers-link.jpg" width="600px" height="400px">
+</p>
+<p>
+    <a href="#nachalo">В начало</a>
+</p>
+</body>
+</html>

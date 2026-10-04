@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FL</title>
+    <style type="text/css">
+        .active {
+            background-color: #e4d5c0;
+            padding: 3px 2px;
+            font-style: italic
+        }
+
+        body {
+            background-color: #f5efe6;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        .zagolow {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+  <h1 id="nachalo" align="center">FLovers</h1>
+  <div class="zagolow">
+    <a href="index.html">Главная</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="forms.html">Форма</a>
+    <a href="dom.html">DOM</a>
+    <a href="pasport.html">Паспорт</a>
+    <a href="algorithm.html" class="active">Алгоритм</a>
+  </div>
+  <h2 align="center">Решение алгоритмической задачи</h2>
+  <p>
+    Дано: номер места в плацкартном вагоне.
+    <br>
+    Определить какое это место: верхнее или нижнее, в купе или боковое.
+  </p>
+  <form action="https://www.ya.ru" target="_blank">
+      <p>
+        Номер места:
+        <input id="place" name="place" type="number">
+      </p>
+      <p>
+        Результат:
+        <input id="result" name="result" type="text">
+      </p>
+      <p>
+        <input id="verify" type="button" value="Проверить">
+      </p>
+      <p>
+        <input type="submit" value="Отправить">
+      </p>
+  </form>
+<script src="algorithm.js"></script>
+</body>
+</html>

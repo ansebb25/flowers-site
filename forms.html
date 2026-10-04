@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FL</title>
+    <style type="text/css">
+        .active {
+            background-color: #e4d5c0;
+            padding: 3px 2px;
+            font-style: italic
+        }
+
+        body {
+            background-color: #f5efe6;
+            margin: 20px;
+            font-size: 18px;
+        }
+
+        .zagolow {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1 id="nachalo" align="center">FLovers</h1>
+<div class="zagolow">
+    <a href="index.html">Главная</a>
+    <a href="gallery.html">Галерея</a>
+    <a href="forms.html" class="active">Форма</a>
+    <a href="dom.html">DOM</a>
+    <a href="pasport.html">Паспорт</a>
+    <a href="algorithm.html">Алгоритм</a>
+</div>
+<h2 align="center">Формы. Отправляем данные на сервер</h2>
+<h3 align="center">Контактные данные</h3>
+<form action="https://www.ya.ru" target="_blank">
+    <p>
+        Фамилия:
+        <input type="text" name="surname">
+    </p>
+    <p>
+        Имя:
+        <input type="text" name="name">
+    </p>
+    <p>
+        Группа:
+        <input type="text" name="group">
+    </p>
+    <p>
+        Мобильный телефон:
+        <input type="text" name="phone">
+    </p>
+    <p>
+        Электронная почта:
+        <input type="text" name="email">
+    </p>
+    <p>
+        Дата отправки:
+        <input type="date" name="send_date">
+    </p>
+    <p>
+        Пароль:
+        <input type="password" name="password">
+    </p>
+    <button type="submit" name="submit" value="Отправить">Отправить</button>
+</form>
+<h3 align="center">Заказ цветов</h3>
+<form action="https://www.ya.ru" target="_blank">
+    <p>
+        Название букета:
+        <input type="text" name="bouquet" value="Букет из роз">
+    </p>
+
+    <p>
+        Количество букетов:
+        <input type="number" name="quantity" value="1">
+    </p>
+        <p>
+        Выберите цвет:
+        <br>
+        <input type="radio" name="color" value="красный" checked>
+        Красный
+        <br>
+        <input type="radio" name="color" value="белый">
+        Белый
+        <br>
+        <input type="radio" name="color" value="розовый">
+        Розовый
+    </p>
+        <p>
+        Дополнительно:
+        <br>
+        <input type="checkbox" name="delivery" value="доставка">
+        Доставка
+        <br>
+        <input type="checkbox" name="card" value="открытка">
+        Открытка
+        <br>
+        <input type="checkbox" name="packaging" value="подарочная упаковка">
+        Подарочная упаковка
+    </p>
+    <p>
+        Дата заказа:
+        <input type="date" name="order_date">
+    </p>
+    <p>
+        Пароль заказа:
+        <input type="password" name="password">
+    </p>
+    <input type="hidden" name="site" value="FLovers">
+    <button type="submit" name="submit" value="Отправить">Отправить</button>
+</form>
+<br>
+<p>
+    <a href="#nachalo">В начало</a>
+</p>
+</body>
+</html>

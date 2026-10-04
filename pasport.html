@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>FL</title>
+    <style type="text/css">
+        .active { background-color: #e4d5c0; padding: 3px 2px; font-style: italic}
+        body {
+            background-color: #f5efe6;
+            margin: 20px;
+            font-size: 18px;
+        }
+        .zagolow {
+            text-align: center;
+        }
+        td {
+        border: 2px solid #452c08;
+        }
+     body {
+    background-image: url(img/pasport.png); /* Путь к фоновому рисунку */
+    background-position: 20px 175px; /* Положение фона */
+    background-repeat: no-repeat; /* Отменяем повторение фона */
+     }
+     .fio{
+         margin-left:180px;
+         margin-top:180px
+     }
+     .name{
+         margin-left:180px;
+         margin-top:25px
+     }
+     .block1{
+         margin-left:100px;
+         margin-top:70px
+     }
+     .block2{
+         margin-left:100px;
+         margin-top:50px
+     }
+     .btn{
+         margin-left:60px;
+         margin-top:100px
+     }
+     .s_name{
+         margin-left:180px;
+         margin-top:10px
+     }
+     .img{
+         position: absolute;
+         margin-left:22px;
+         margin-top:-80px;
+     }
+     .gen{
+         margin-left: 165px;
+         margin-top: 2px;
+     }
+    </style>
+</head>
+<body>
+<h1 id="nachalo" align="center">FLovers</h1>
+<nav class="zagolow">
+        <a href="index.html">Главная</a>
+        <a href="gallery.html" >Галерея</a>
+        <a href="forms.html">Форма</a>
+        <a href="dom.html">DOM</a>
+        <a href="pasport.html" class="active">Паспорт</a>
+        <a href="algorithm.html">Алгоритм</a>
+<h2 align="center">Изменяем кириллицу на латиницу по клику</h2>
+</nav>
+ <div class="block1"> Выдан МВД России по Мск. области</div>
+ <div class="block2"> 20/05/2021 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 434-2342</div>
+ <div class="fio" id="fio">Булыга</div>
+ <div class="name" id="name">Анастасия</div>
+ <div class="s_name" id="s_name">Сергеевна</div>
+ <div class="gen" id="gen">Жен  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 25.12.2006</div>
+ <div class="img"> <img src="img/tiki.jpg" height="150" width="120"></div>
+ <button class="btn" id="change">Заменить</button>
+</body>
+<script src='change.js'></script>
+</html>
